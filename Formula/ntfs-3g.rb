@@ -4,7 +4,7 @@ class Ntfs3g < Formula
   revision 3
   stable do
     url "https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2021.8.22.tgz"
-    sha256 "700ffa8f71447fd0704b3077e0492586371e8c981ced411490ee92f9e5bca1ea"
+    sha256 "55b883aa05d94b2ec746ef3966cb41e66bed6db99f22ddd41d1b8b94bb202efb"
 
     # Fails to build on Xcode 9+. Fixed upstream in a0bc659c7ff0205cfa2b2fc3429ee4d944e1bcc3
     patch do
